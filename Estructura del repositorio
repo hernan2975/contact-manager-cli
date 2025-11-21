@@ -1,5 +1,19 @@
 contact-manager-cli/
+├── .gitignore
+├── LICENSE
 ├── pom.xml
+├── README.md
 └── src/
-    ├── main/java/com/tuempresa/
-    └── test/java/com/tuempresa/
+    ├── main/
+    │   └── java/
+    │       └── com/
+    │           └── tuempresa/
+    │               ├── App.java
+    │               ├── Contact.java
+    │               └── ContactManager.java
+    └── test/
+        └── java/
+            └── com/
+                └── tuempresa/
+                    ├── ContactTest.java
+                    └── ContactManagerTest.java
